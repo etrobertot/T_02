@@ -3,13 +3,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <iostream>
 #include "lcgrand.h" /* Encabezado para el generador de numeros aleatorios */
 
 #define LIMITE_COLA 100 /* Capacidad maxima de la cola */
 #define OCUPADO 1       /* Indicador de Servidor Ocupado */
 #define LIBRE 0         /* Indicador de Servidor Libre */
-
-int sig_tipo_evento, num_clientes_espera, num_esperas_requerido, num_eventos,
+using namespace std;
+int seed, sig_tipo_evento, num_clientes_espera, num_esperas_requerido, num_eventos,
     num_entra_cola, num_servidores, num_servidores_ocupados;
 float area_num_entra_cola, area_estado_servidor, media_entre_llegadas, media_atencion,
     tiempo_simulacion, tiempo_llegada[LIMITE_COLA + 1], tiempo_ultimo_evento,
@@ -17,23 +18,27 @@ float area_num_entra_cola, area_estado_servidor, media_entre_llegadas, media_ate
 FILE *parametros, *resultados, *impresion;
 float *tiempo_sig_evento;
 
-void inicializar(void);
+/* Variables acumuladoras entre experimentos  w.ql2*/
+float total_espera_promedio_cola, total_numero_promedio_en_cola, uso_total_servidor, total_proporcion_cola_activa, promedio_terminacion_simulacion;
+
+void experimento(int seed);
+void inicializar();
+void inicializar_experimento(void);
 void control_tiempo(void);
 void llegada(void);
 void salida(void);
-void reportes(void);
+void reportes_experimento(void);
+void reportes_globales(void);
 void actualizar_estad_prom_tiempo(void);
 float expon(float mean);
 int get_estado_servidor(void);
 int get_servidor_libre(void);
-int get_servidor_libre2(void);
 
 int main(void) /* Funcion Principal */
 {
     /* Abre los archivos de entrada y salida */
     parametros = fopen("param.txt", "r");
     resultados = fopen("result.txt", "w");
-    impresion = fopen("impresion.txt", "w");
 
     /* Lee los parametros de enrtrada. */
     fscanf(parametros, "%f %f %d %d", &media_entre_llegadas, &media_atencion,
@@ -49,12 +54,42 @@ int main(void) /* Funcion Principal */
     fprintf(resultados, "Tiempo promedio de atencion%16.3f minutos\n\n", media_atencion);
     fprintf(resultados, "Numero de clientes%14d\n\n", num_esperas_requerido);
 
+    /* Correr Experimento varias veces */
+    for (seed = 1; seed <= 100; seed++)
+    {
+        fprintf(resultados, "\n\n\n\n==== Experimento %i ====", seed);
+        experimento(seed);
+    }
+
+    reportes_globales();
+
+    /* Termina la simulacion. */
+    fclose(parametros);
+    fclose(resultados);
+    return 0;
+}
+
+void inicializar()
+{
+    /* Inicializa todos las variable acumuladoras entre experimentos*/
+    total_espera_promedio_cola = 0;
+    total_numero_promedio_en_cola = 0;
+    uso_total_servidor = 0;
+    total_proporcion_cola_activa = 0;
+    promedio_terminacion_simulacion = 0;
+}
+
+void experimento(int seed)
+{
     /* iInicializa la simulacion. */
-    inicializar();
+
+    inicializar_experimento();
 
     /* Corre la simulacion mientras no se llegue al numero de clientes especificaco en el archivo de entrada*/
+
     while (num_clientes_espera < num_esperas_requerido)
     {
+
         /* Determina el siguiente evento */
         control_tiempo();
 
@@ -72,16 +107,12 @@ int main(void) /* Funcion Principal */
         }
     }
 
-    /* Invoca el generador de reportes y termina la simulacion. */
-    reportes();
+    /* Invoca el generador de reportes*/
 
-    fclose(parametros);
-    fclose(resultados);
-
-    return 0;
+    reportes_experimento();
 }
 
-void inicializar(void) /* Funcion de inicializacion. */
+void inicializar_experimento(void) /* Funcion de inicializacion. */
 {
     /* Inicializa el reloj de la simulacion. */
     tiempo_simulacion = 0.0;
@@ -211,18 +242,38 @@ void salida(void) /* Funcion de Salida. */
     }
 }
 
-void reportes(void) /* Funcion generadora de reportes. */
+void reportes_experimento(void) /* Funcion generadora de reportes. */
 {
     /* Calcula y estima los estimados de las medidas deseadas de desempe�o */
-    fprintf(resultados, "\n\nEspera promedio en la cola%11.3f minutos\n\n",
-            total_de_esperas / num_clientes_espera);
-    fprintf(resultados, "Numero promedio en cola%10.3f\n\n",
-            area_num_entra_cola / tiempo_simulacion);
-    fprintf(resultados, "Uso del servidor%15.3f\n\n",
-            area_estado_servidor / tiempo_simulacion);
-    fprintf(resultados, "Proporción de tiempo cola activa%15.3f\n\n",
-            tiempo_cola_activa / tiempo_simulacion);
+    float espera_promedio_cola = total_de_esperas / num_clientes_espera;
+    fprintf(resultados, "\n\nEspera promedio en la cola%11.3f minutos\n\n", espera_promedio_cola);
+    float numero_promedio_cola = area_num_entra_cola / tiempo_simulacion;
+    fprintf(resultados, "Numero promedio en cola%10.3f\n\n", espera_promedio_cola);
+    float uso_servidor = area_estado_servidor / tiempo_simulacion;
+    fprintf(resultados, "Uso del servidor%15.3f\n\n", uso_servidor);
+    float proporcion_tiempo_cola = tiempo_cola_activa / tiempo_simulacion;
+    fprintf(resultados, "Proporción de tiempo cola activa%15.3f\n\n", proporcion_tiempo_cola);
     fprintf(resultados, "Tiempo de terminacion de la simulacion%12.3f minutos", tiempo_simulacion);
+    total_espera_promedio_cola += espera_promedio_cola;
+    total_numero_promedio_en_cola += numero_promedio_cola;
+    uso_total_servidor += uso_servidor;
+    total_proporcion_cola_activa += proporcion_tiempo_cola;
+    promedio_terminacion_simulacion += tiempo_simulacion;
+}
+
+void reportes_globales()
+{
+    total_espera_promedio_cola /= 100;
+    total_numero_promedio_en_cola /= 100;
+    uso_total_servidor /= 100;
+    total_proporcion_cola_activa /= 100;
+    promedio_terminacion_simulacion /= 100;
+    fprintf(resultados, "\n\n\n\n==== Resultados Totales ====");
+    fprintf(resultados, "\n\nEspera promedio en la cola%11.3f minutos\n\n", total_espera_promedio_cola);
+    fprintf(resultados, "Numero promedio en cola%10.3f\n\n", total_numero_promedio_en_cola);
+    fprintf(resultados, "Uso del servidor%15.3f\n\n", uso_total_servidor);
+    fprintf(resultados, "Proporción de tiempo cola activa%15.3f\n\n", total_proporcion_cola_activa);
+    fprintf(resultados, "Tiempo de terminacion de la simulacion%12.3f minutos", promedio_terminacion_simulacion);
 }
 
 void actualizar_estad_prom_tiempo(void) /* Actualiza los acumuladores de
@@ -246,7 +297,7 @@ void actualizar_estad_prom_tiempo(void) /* Actualiza los acumuladores de
 float expon(float media) /* Funcion generadora de la exponencias */
 {
     /* Retorna una variable aleatoria exponencial con media "media"*/
-    return -media * log(lcgrand(2));
+    return -media * log(lcgrand(seed));
 }
 
 int get_estado_servidor()

@@ -8,12 +8,1416 @@ Numero de clientes          1000
 
 
 
+
+
+==== Experimento 1 ====
+
+Espera promedio en la cola      1.009 minutos
+
+Numero promedio en cola     1.009
+
+Uso del servidor          0.184
+
+Proporción de tiempo cola activa          0.076
+
+Tiempo de terminacion de la simulacion    8614.031 minutos
+
+
+
+==== Experimento 2 ====
+
 Espera promedio en la cola      0.820 minutos
 
-Numero promedio en cola     0.096
+Numero promedio en cola     0.820
 
 Uso del servidor          0.190
 
 Proporción de tiempo cola activa          0.062
 
 Tiempo de terminacion de la simulacion    8511.347 minutos
+
+
+
+==== Experimento 3 ====
+
+Espera promedio en la cola      0.847 minutos
+
+Numero promedio en cola     0.847
+
+Uso del servidor          0.178
+
+Proporción de tiempo cola activa          0.062
+
+Tiempo de terminacion de la simulacion    9000.572 minutos
+
+
+
+==== Experimento 4 ====
+
+Espera promedio en la cola      0.930 minutos
+
+Numero promedio en cola     0.930
+
+Uso del servidor          0.201
+
+Proporción de tiempo cola activa          0.077
+
+Tiempo de terminacion de la simulacion    8434.989 minutos
+
+
+
+==== Experimento 5 ====
+
+Espera promedio en la cola      0.868 minutos
+
+Numero promedio en cola     0.868
+
+Uso del servidor          0.193
+
+Proporción de tiempo cola activa          0.066
+
+Tiempo de terminacion de la simulacion    8486.292 minutos
+
+
+
+==== Experimento 6 ====
+
+Espera promedio en la cola      0.950 minutos
+
+Numero promedio en cola     0.950
+
+Uso del servidor          0.192
+
+Proporción de tiempo cola activa          0.074
+
+Tiempo de terminacion de la simulacion    8484.221 minutos
+
+
+
+==== Experimento 7 ====
+
+Espera promedio en la cola      1.172 minutos
+
+Numero promedio en cola     1.172
+
+Uso del servidor          0.209
+
+Proporción de tiempo cola activa          0.087
+
+Tiempo de terminacion de la simulacion    8216.213 minutos
+
+
+
+==== Experimento 8 ====
+
+Espera promedio en la cola      0.759 minutos
+
+Numero promedio en cola     0.759
+
+Uso del servidor          0.165
+
+Proporción de tiempo cola activa          0.054
+
+Tiempo de terminacion de la simulacion    9228.092 minutos
+
+
+
+==== Experimento 9 ====
+
+Espera promedio en la cola      0.476 minutos
+
+Numero promedio en cola     0.476
+
+Uso del servidor          0.163
+
+Proporción de tiempo cola activa          0.041
+
+Tiempo de terminacion de la simulacion    8813.465 minutos
+
+
+
+==== Experimento 10 ====
+
+Espera promedio en la cola      0.788 minutos
+
+Numero promedio en cola     0.788
+
+Uso del servidor          0.182
+
+Proporción de tiempo cola activa          0.062
+
+Tiempo de terminacion de la simulacion    8497.976 minutos
+
+
+
+==== Experimento 11 ====
+
+Espera promedio en la cola      0.645 minutos
+
+Numero promedio en cola     0.645
+
+Uso del servidor          0.165
+
+Proporción de tiempo cola activa          0.056
+
+Tiempo de terminacion de la simulacion    8769.473 minutos
+
+
+
+==== Experimento 12 ====
+
+Espera promedio en la cola      1.233 minutos
+
+Numero promedio en cola     1.233
+
+Uso del servidor          0.219
+
+Proporción de tiempo cola activa          0.091
+
+Tiempo de terminacion de la simulacion    8495.944 minutos
+
+
+
+==== Experimento 13 ====
+
+Espera promedio en la cola      0.688 minutos
+
+Numero promedio en cola     0.688
+
+Uso del servidor          0.183
+
+Proporción de tiempo cola activa          0.057
+
+Tiempo de terminacion de la simulacion    8531.385 minutos
+
+
+
+==== Experimento 14 ====
+
+Espera promedio en la cola      0.850 minutos
+
+Numero promedio en cola     0.850
+
+Uso del servidor          0.190
+
+Proporción de tiempo cola activa          0.067
+
+Tiempo de terminacion de la simulacion    8860.972 minutos
+
+
+
+==== Experimento 15 ====
+
+Espera promedio en la cola      0.727 minutos
+
+Numero promedio en cola     0.727
+
+Uso del servidor          0.166
+
+Proporción de tiempo cola activa          0.057
+
+Tiempo de terminacion de la simulacion    8720.573 minutos
+
+
+
+==== Experimento 16 ====
+
+Espera promedio en la cola      0.742 minutos
+
+Numero promedio en cola     0.742
+
+Uso del servidor          0.153
+
+Proporción de tiempo cola activa          0.054
+
+Tiempo de terminacion de la simulacion    8910.463 minutos
+
+
+
+==== Experimento 17 ====
+
+Espera promedio en la cola      0.767 minutos
+
+Numero promedio en cola     0.767
+
+Uso del servidor          0.198
+
+Proporción de tiempo cola activa          0.065
+
+Tiempo de terminacion de la simulacion    8333.101 minutos
+
+
+
+==== Experimento 18 ====
+
+Espera promedio en la cola      0.910 minutos
+
+Numero promedio en cola     0.910
+
+Uso del servidor          0.183
+
+Proporción de tiempo cola activa          0.065
+
+Tiempo de terminacion de la simulacion    8882.169 minutos
+
+
+
+==== Experimento 19 ====
+
+Espera promedio en la cola      1.006 minutos
+
+Numero promedio en cola     1.006
+
+Uso del servidor          0.204
+
+Proporción de tiempo cola activa          0.083
+
+Tiempo de terminacion de la simulacion    8005.726 minutos
+
+
+
+==== Experimento 20 ====
+
+Espera promedio en la cola      0.757 minutos
+
+Numero promedio en cola     0.757
+
+Uso del servidor          0.184
+
+Proporción de tiempo cola activa          0.064
+
+Tiempo de terminacion de la simulacion    8689.259 minutos
+
+
+
+==== Experimento 21 ====
+
+Espera promedio en la cola      0.954 minutos
+
+Numero promedio en cola     0.954
+
+Uso del servidor          0.183
+
+Proporción de tiempo cola activa          0.064
+
+Tiempo de terminacion de la simulacion    8763.264 minutos
+
+
+
+==== Experimento 22 ====
+
+Espera promedio en la cola      0.627 minutos
+
+Numero promedio en cola     0.627
+
+Uso del servidor          0.172
+
+Proporción de tiempo cola activa          0.051
+
+Tiempo de terminacion de la simulacion    9001.990 minutos
+
+
+
+==== Experimento 23 ====
+
+Espera promedio en la cola      0.662 minutos
+
+Numero promedio en cola     0.662
+
+Uso del servidor          0.174
+
+Proporción de tiempo cola activa          0.055
+
+Tiempo de terminacion de la simulacion    8816.500 minutos
+
+
+
+==== Experimento 24 ====
+
+Espera promedio en la cola      1.100 minutos
+
+Numero promedio en cola     1.100
+
+Uso del servidor          0.196
+
+Proporción de tiempo cola activa          0.071
+
+Tiempo de terminacion de la simulacion    8688.595 minutos
+
+
+
+==== Experimento 25 ====
+
+Espera promedio en la cola      0.970 minutos
+
+Numero promedio en cola     0.970
+
+Uso del servidor          0.189
+
+Proporción de tiempo cola activa          0.067
+
+Tiempo de terminacion de la simulacion    8723.654 minutos
+
+
+
+==== Experimento 26 ====
+
+Espera promedio en la cola      1.185 minutos
+
+Numero promedio en cola     1.185
+
+Uso del servidor          0.199
+
+Proporción de tiempo cola activa          0.084
+
+Tiempo de terminacion de la simulacion    9020.672 minutos
+
+
+
+==== Experimento 27 ====
+
+Espera promedio en la cola      0.772 minutos
+
+Numero promedio en cola     0.772
+
+Uso del servidor          0.173
+
+Proporción de tiempo cola activa          0.058
+
+Tiempo de terminacion de la simulacion    9157.856 minutos
+
+
+
+==== Experimento 28 ====
+
+Espera promedio en la cola      0.920 minutos
+
+Numero promedio en cola     0.920
+
+Uso del servidor          0.185
+
+Proporción de tiempo cola activa          0.071
+
+Tiempo de terminacion de la simulacion    8924.055 minutos
+
+
+
+==== Experimento 29 ====
+
+Espera promedio en la cola      0.856 minutos
+
+Numero promedio en cola     0.856
+
+Uso del servidor          0.181
+
+Proporción de tiempo cola activa          0.067
+
+Tiempo de terminacion de la simulacion    8823.771 minutos
+
+
+
+==== Experimento 30 ====
+
+Espera promedio en la cola      1.043 minutos
+
+Numero promedio en cola     1.043
+
+Uso del servidor          0.199
+
+Proporción de tiempo cola activa          0.082
+
+Tiempo de terminacion de la simulacion    8662.367 minutos
+
+
+
+==== Experimento 31 ====
+
+Espera promedio en la cola      0.793 minutos
+
+Numero promedio en cola     0.793
+
+Uso del servidor          0.189
+
+Proporción de tiempo cola activa          0.068
+
+Tiempo de terminacion de la simulacion    8621.181 minutos
+
+
+
+==== Experimento 32 ====
+
+Espera promedio en la cola      0.758 minutos
+
+Numero promedio en cola     0.758
+
+Uso del servidor          0.169
+
+Proporción de tiempo cola activa          0.058
+
+Tiempo de terminacion de la simulacion    8870.561 minutos
+
+
+
+==== Experimento 33 ====
+
+Espera promedio en la cola      0.950 minutos
+
+Numero promedio en cola     0.950
+
+Uso del servidor          0.189
+
+Proporción de tiempo cola activa          0.071
+
+Tiempo de terminacion de la simulacion    8466.606 minutos
+
+
+
+==== Experimento 34 ====
+
+Espera promedio en la cola      0.953 minutos
+
+Numero promedio en cola     0.953
+
+Uso del servidor          0.190
+
+Proporción de tiempo cola activa          0.066
+
+Tiempo de terminacion de la simulacion    8524.350 minutos
+
+
+
+==== Experimento 35 ====
+
+Espera promedio en la cola      0.799 minutos
+
+Numero promedio en cola     0.799
+
+Uso del servidor          0.191
+
+Proporción de tiempo cola activa          0.061
+
+Tiempo de terminacion de la simulacion    9143.169 minutos
+
+
+
+==== Experimento 36 ====
+
+Espera promedio en la cola      0.976 minutos
+
+Numero promedio en cola     0.976
+
+Uso del servidor          0.202
+
+Proporción de tiempo cola activa          0.079
+
+Tiempo de terminacion de la simulacion    8291.265 minutos
+
+
+
+==== Experimento 37 ====
+
+Espera promedio en la cola      0.727 minutos
+
+Numero promedio en cola     0.727
+
+Uso del servidor          0.171
+
+Proporción de tiempo cola activa          0.061
+
+Tiempo de terminacion de la simulacion    8912.571 minutos
+
+
+
+==== Experimento 38 ====
+
+Espera promedio en la cola      0.954 minutos
+
+Numero promedio en cola     0.954
+
+Uso del servidor          0.201
+
+Proporción de tiempo cola activa          0.073
+
+Tiempo de terminacion de la simulacion    8315.892 minutos
+
+
+
+==== Experimento 39 ====
+
+Espera promedio en la cola      0.979 minutos
+
+Numero promedio en cola     0.979
+
+Uso del servidor          0.205
+
+Proporción de tiempo cola activa          0.071
+
+Tiempo de terminacion de la simulacion    8611.903 minutos
+
+
+
+==== Experimento 40 ====
+
+Espera promedio en la cola      0.835 minutos
+
+Numero promedio en cola     0.835
+
+Uso del servidor          0.201
+
+Proporción de tiempo cola activa          0.071
+
+Tiempo de terminacion de la simulacion    8480.085 minutos
+
+
+
+==== Experimento 41 ====
+
+Espera promedio en la cola      0.630 minutos
+
+Numero promedio en cola     0.630
+
+Uso del servidor          0.178
+
+Proporción de tiempo cola activa          0.054
+
+Tiempo de terminacion de la simulacion    8912.423 minutos
+
+
+
+==== Experimento 42 ====
+
+Espera promedio en la cola      1.028 minutos
+
+Numero promedio en cola     1.028
+
+Uso del servidor          0.213
+
+Proporción de tiempo cola activa          0.085
+
+Tiempo de terminacion de la simulacion    8459.074 minutos
+
+
+
+==== Experimento 43 ====
+
+Espera promedio en la cola      1.020 minutos
+
+Numero promedio en cola     1.020
+
+Uso del servidor          0.170
+
+Proporción de tiempo cola activa          0.068
+
+Tiempo de terminacion de la simulacion    8925.251 minutos
+
+
+
+==== Experimento 44 ====
+
+Espera promedio en la cola      1.223 minutos
+
+Numero promedio en cola     1.223
+
+Uso del servidor          0.218
+
+Proporción de tiempo cola activa          0.084
+
+Tiempo de terminacion de la simulacion    8483.803 minutos
+
+
+
+==== Experimento 45 ====
+
+Espera promedio en la cola      0.691 minutos
+
+Numero promedio en cola     0.691
+
+Uso del servidor          0.176
+
+Proporción de tiempo cola activa          0.055
+
+Tiempo de terminacion de la simulacion    8890.971 minutos
+
+
+
+==== Experimento 46 ====
+
+Espera promedio en la cola      0.775 minutos
+
+Numero promedio en cola     0.775
+
+Uso del servidor          0.171
+
+Proporción de tiempo cola activa          0.057
+
+Tiempo de terminacion de la simulacion    8754.803 minutos
+
+
+
+==== Experimento 47 ====
+
+Espera promedio en la cola      0.892 minutos
+
+Numero promedio en cola     0.892
+
+Uso del servidor          0.186
+
+Proporción de tiempo cola activa          0.067
+
+Tiempo de terminacion de la simulacion    8538.425 minutos
+
+
+
+==== Experimento 48 ====
+
+Espera promedio en la cola      1.035 minutos
+
+Numero promedio en cola     1.035
+
+Uso del servidor          0.200
+
+Proporción de tiempo cola activa          0.076
+
+Tiempo de terminacion de la simulacion    8545.683 minutos
+
+
+
+==== Experimento 49 ====
+
+Espera promedio en la cola      0.777 minutos
+
+Numero promedio en cola     0.777
+
+Uso del servidor          0.175
+
+Proporción de tiempo cola activa          0.059
+
+Tiempo de terminacion de la simulacion    8786.041 minutos
+
+
+
+==== Experimento 50 ====
+
+Espera promedio en la cola      0.840 minutos
+
+Numero promedio en cola     0.840
+
+Uso del servidor          0.171
+
+Proporción de tiempo cola activa          0.064
+
+Tiempo de terminacion de la simulacion    9031.466 minutos
+
+
+
+==== Experimento 51 ====
+
+Espera promedio en la cola      0.830 minutos
+
+Numero promedio en cola     0.830
+
+Uso del servidor          0.185
+
+Proporción de tiempo cola activa          0.065
+
+Tiempo de terminacion de la simulacion    8786.690 minutos
+
+
+
+==== Experimento 52 ====
+
+Espera promedio en la cola      1.308 minutos
+
+Numero promedio en cola     1.308
+
+Uso del servidor          0.227
+
+Proporción de tiempo cola activa          0.087
+
+Tiempo de terminacion de la simulacion    8286.839 minutos
+
+
+
+==== Experimento 53 ====
+
+Espera promedio en la cola      0.651 minutos
+
+Numero promedio en cola     0.651
+
+Uso del servidor          0.188
+
+Proporción de tiempo cola activa          0.058
+
+Tiempo de terminacion de la simulacion    8305.696 minutos
+
+
+
+==== Experimento 54 ====
+
+Espera promedio en la cola      0.683 minutos
+
+Numero promedio en cola     0.683
+
+Uso del servidor          0.177
+
+Proporción de tiempo cola activa          0.053
+
+Tiempo de terminacion de la simulacion    8718.741 minutos
+
+
+
+==== Experimento 55 ====
+
+Espera promedio en la cola      0.602 minutos
+
+Numero promedio en cola     0.602
+
+Uso del servidor          0.157
+
+Proporción de tiempo cola activa          0.043
+
+Tiempo de terminacion de la simulacion    9342.771 minutos
+
+
+
+==== Experimento 56 ====
+
+Espera promedio en la cola      0.875 minutos
+
+Numero promedio en cola     0.875
+
+Uso del servidor          0.166
+
+Proporción de tiempo cola activa          0.058
+
+Tiempo de terminacion de la simulacion    9085.701 minutos
+
+
+
+==== Experimento 57 ====
+
+Espera promedio en la cola      0.731 minutos
+
+Numero promedio en cola     0.731
+
+Uso del servidor          0.184
+
+Proporción de tiempo cola activa          0.060
+
+Tiempo de terminacion de la simulacion    8632.376 minutos
+
+
+
+==== Experimento 58 ====
+
+Espera promedio en la cola      0.846 minutos
+
+Numero promedio en cola     0.846
+
+Uso del servidor          0.171
+
+Proporción de tiempo cola activa          0.055
+
+Tiempo de terminacion de la simulacion    9143.111 minutos
+
+
+
+==== Experimento 59 ====
+
+Espera promedio en la cola      0.786 minutos
+
+Numero promedio en cola     0.786
+
+Uso del servidor          0.179
+
+Proporción de tiempo cola activa          0.060
+
+Tiempo de terminacion de la simulacion    8861.090 minutos
+
+
+
+==== Experimento 60 ====
+
+Espera promedio en la cola      0.740 minutos
+
+Numero promedio en cola     0.740
+
+Uso del servidor          0.151
+
+Proporción de tiempo cola activa          0.051
+
+Tiempo de terminacion de la simulacion    8993.465 minutos
+
+
+
+==== Experimento 61 ====
+
+Espera promedio en la cola      1.423 minutos
+
+Numero promedio en cola     1.423
+
+Uso del servidor          0.215
+
+Proporción de tiempo cola activa          0.095
+
+Tiempo de terminacion de la simulacion    8284.676 minutos
+
+
+
+==== Experimento 62 ====
+
+Espera promedio en la cola      1.134 minutos
+
+Numero promedio en cola     1.134
+
+Uso del servidor          0.204
+
+Proporción de tiempo cola activa          0.081
+
+Tiempo de terminacion de la simulacion    8396.463 minutos
+
+
+
+==== Experimento 63 ====
+
+Espera promedio en la cola      0.653 minutos
+
+Numero promedio en cola     0.653
+
+Uso del servidor          0.174
+
+Proporción de tiempo cola activa          0.053
+
+Tiempo de terminacion de la simulacion    8722.883 minutos
+
+
+
+==== Experimento 64 ====
+
+Espera promedio en la cola      0.800 minutos
+
+Numero promedio en cola     0.800
+
+Uso del servidor          0.170
+
+Proporción de tiempo cola activa          0.054
+
+Tiempo de terminacion de la simulacion    9048.333 minutos
+
+
+
+==== Experimento 65 ====
+
+Espera promedio en la cola      0.866 minutos
+
+Numero promedio en cola     0.866
+
+Uso del servidor          0.182
+
+Proporción de tiempo cola activa          0.066
+
+Tiempo de terminacion de la simulacion    8555.172 minutos
+
+
+
+==== Experimento 66 ====
+
+Espera promedio en la cola      0.939 minutos
+
+Numero promedio en cola     0.939
+
+Uso del servidor          0.194
+
+Proporción de tiempo cola activa          0.072
+
+Tiempo de terminacion de la simulacion    8737.785 minutos
+
+
+
+==== Experimento 67 ====
+
+Espera promedio en la cola      1.069 minutos
+
+Numero promedio en cola     1.069
+
+Uso del servidor          0.209
+
+Proporción de tiempo cola activa          0.083
+
+Tiempo de terminacion de la simulacion    8369.813 minutos
+
+
+
+==== Experimento 68 ====
+
+Espera promedio en la cola      1.213 minutos
+
+Numero promedio en cola     1.213
+
+Uso del servidor          0.175
+
+Proporción de tiempo cola activa          0.079
+
+Tiempo de terminacion de la simulacion    8969.868 minutos
+
+
+
+==== Experimento 69 ====
+
+Espera promedio en la cola      0.776 minutos
+
+Numero promedio en cola     0.776
+
+Uso del servidor          0.189
+
+Proporción de tiempo cola activa          0.060
+
+Tiempo de terminacion de la simulacion    8817.357 minutos
+
+
+
+==== Experimento 70 ====
+
+Espera promedio en la cola      1.011 minutos
+
+Numero promedio en cola     1.011
+
+Uso del servidor          0.168
+
+Proporción de tiempo cola activa          0.064
+
+Tiempo de terminacion de la simulacion    8879.502 minutos
+
+
+
+==== Experimento 71 ====
+
+Espera promedio en la cola      1.135 minutos
+
+Numero promedio en cola     1.135
+
+Uso del servidor          0.206
+
+Proporción de tiempo cola activa          0.086
+
+Tiempo de terminacion de la simulacion    8245.762 minutos
+
+
+
+==== Experimento 72 ====
+
+Espera promedio en la cola      1.171 minutos
+
+Numero promedio en cola     1.171
+
+Uso del servidor          0.197
+
+Proporción de tiempo cola activa          0.083
+
+Tiempo de terminacion de la simulacion    8817.729 minutos
+
+
+
+==== Experimento 73 ====
+
+Espera promedio en la cola      1.208 minutos
+
+Numero promedio en cola     1.208
+
+Uso del servidor          0.194
+
+Proporción de tiempo cola activa          0.075
+
+Tiempo de terminacion de la simulacion    8701.682 minutos
+
+
+
+==== Experimento 74 ====
+
+Espera promedio en la cola      0.748 minutos
+
+Numero promedio en cola     0.748
+
+Uso del servidor          0.196
+
+Proporción de tiempo cola activa          0.061
+
+Tiempo de terminacion de la simulacion    8604.785 minutos
+
+
+
+==== Experimento 75 ====
+
+Espera promedio en la cola      1.050 minutos
+
+Numero promedio en cola     1.050
+
+Uso del servidor          0.184
+
+Proporción de tiempo cola activa          0.070
+
+Tiempo de terminacion de la simulacion    8756.029 minutos
+
+
+
+==== Experimento 76 ====
+
+Espera promedio en la cola      0.743 minutos
+
+Numero promedio en cola     0.743
+
+Uso del servidor          0.169
+
+Proporción de tiempo cola activa          0.054
+
+Tiempo de terminacion de la simulacion    8762.331 minutos
+
+
+
+==== Experimento 77 ====
+
+Espera promedio en la cola      0.916 minutos
+
+Numero promedio en cola     0.916
+
+Uso del servidor          0.207
+
+Proporción de tiempo cola activa          0.075
+
+Tiempo de terminacion de la simulacion    8454.220 minutos
+
+
+
+==== Experimento 78 ====
+
+Espera promedio en la cola      0.888 minutos
+
+Numero promedio en cola     0.888
+
+Uso del servidor          0.202
+
+Proporción de tiempo cola activa          0.068
+
+Tiempo de terminacion de la simulacion    8757.690 minutos
+
+
+
+==== Experimento 79 ====
+
+Espera promedio en la cola      0.925 minutos
+
+Numero promedio en cola     0.925
+
+Uso del servidor          0.198
+
+Proporción de tiempo cola activa          0.067
+
+Tiempo de terminacion de la simulacion    8505.234 minutos
+
+
+
+==== Experimento 80 ====
+
+Espera promedio en la cola      0.990 minutos
+
+Numero promedio en cola     0.990
+
+Uso del servidor          0.201
+
+Proporción de tiempo cola activa          0.080
+
+Tiempo de terminacion de la simulacion    8553.758 minutos
+
+
+
+==== Experimento 81 ====
+
+Espera promedio en la cola      1.030 minutos
+
+Numero promedio en cola     1.030
+
+Uso del servidor          0.221
+
+Proporción de tiempo cola activa          0.083
+
+Tiempo de terminacion de la simulacion    8375.571 minutos
+
+
+
+==== Experimento 82 ====
+
+Espera promedio en la cola      1.041 minutos
+
+Numero promedio en cola     1.041
+
+Uso del servidor          0.203
+
+Proporción de tiempo cola activa          0.078
+
+Tiempo de terminacion de la simulacion    8431.830 minutos
+
+
+
+==== Experimento 83 ====
+
+Espera promedio en la cola      0.648 minutos
+
+Numero promedio en cola     0.648
+
+Uso del servidor          0.160
+
+Proporción de tiempo cola activa          0.046
+
+Tiempo de terminacion de la simulacion    9051.925 minutos
+
+
+
+==== Experimento 84 ====
+
+Espera promedio en la cola      1.086 minutos
+
+Numero promedio en cola     1.086
+
+Uso del servidor          0.198
+
+Proporción de tiempo cola activa          0.088
+
+Tiempo de terminacion de la simulacion    8216.795 minutos
+
+
+
+==== Experimento 85 ====
+
+Espera promedio en la cola      0.676 minutos
+
+Numero promedio en cola     0.676
+
+Uso del servidor          0.168
+
+Proporción de tiempo cola activa          0.054
+
+Tiempo de terminacion de la simulacion    8904.126 minutos
+
+
+
+==== Experimento 86 ====
+
+Espera promedio en la cola      0.798 minutos
+
+Numero promedio en cola     0.798
+
+Uso del servidor          0.176
+
+Proporción de tiempo cola activa          0.058
+
+Tiempo de terminacion de la simulacion    8936.581 minutos
+
+
+
+==== Experimento 87 ====
+
+Espera promedio en la cola      1.243 minutos
+
+Numero promedio en cola     1.243
+
+Uso del servidor          0.207
+
+Proporción de tiempo cola activa          0.085
+
+Tiempo de terminacion de la simulacion    8443.691 minutos
+
+
+
+==== Experimento 88 ====
+
+Espera promedio en la cola      1.330 minutos
+
+Numero promedio en cola     1.330
+
+Uso del servidor          0.212
+
+Proporción de tiempo cola activa          0.096
+
+Tiempo de terminacion de la simulacion    8493.707 minutos
+
+
+
+==== Experimento 89 ====
+
+Espera promedio en la cola      0.929 minutos
+
+Numero promedio en cola     0.929
+
+Uso del servidor          0.189
+
+Proporción de tiempo cola activa          0.068
+
+Tiempo de terminacion de la simulacion    8727.559 minutos
+
+
+
+==== Experimento 90 ====
+
+Espera promedio en la cola      1.152 minutos
+
+Numero promedio en cola     1.152
+
+Uso del servidor          0.217
+
+Proporción de tiempo cola activa          0.078
+
+Tiempo de terminacion de la simulacion    8100.106 minutos
+
+
+
+==== Experimento 91 ====
+
+Espera promedio en la cola      0.787 minutos
+
+Numero promedio en cola     0.787
+
+Uso del servidor          0.173
+
+Proporción de tiempo cola activa          0.057
+
+Tiempo de terminacion de la simulacion    8804.523 minutos
+
+
+
+==== Experimento 92 ====
+
+Espera promedio en la cola      0.669 minutos
+
+Numero promedio en cola     0.669
+
+Uso del servidor          0.187
+
+Proporción de tiempo cola activa          0.052
+
+Tiempo de terminacion de la simulacion    8837.806 minutos
+
+
+
+==== Experimento 93 ====
+
+Espera promedio en la cola      1.220 minutos
+
+Numero promedio en cola     1.220
+
+Uso del servidor          0.205
+
+Proporción de tiempo cola activa          0.081
+
+Tiempo de terminacion de la simulacion    8354.795 minutos
+
+
+
+==== Experimento 94 ====
+
+Espera promedio en la cola      0.848 minutos
+
+Numero promedio en cola     0.848
+
+Uso del servidor          0.174
+
+Proporción de tiempo cola activa          0.061
+
+Tiempo de terminacion de la simulacion    8878.545 minutos
+
+
+
+==== Experimento 95 ====
+
+Espera promedio en la cola      0.730 minutos
+
+Numero promedio en cola     0.730
+
+Uso del servidor          0.170
+
+Proporción de tiempo cola activa          0.051
+
+Tiempo de terminacion de la simulacion    8721.021 minutos
+
+
+
+==== Experimento 96 ====
+
+Espera promedio en la cola      0.700 minutos
+
+Numero promedio en cola     0.700
+
+Uso del servidor          0.178
+
+Proporción de tiempo cola activa          0.061
+
+Tiempo de terminacion de la simulacion    8463.980 minutos
+
+
+
+==== Experimento 97 ====
+
+Espera promedio en la cola      1.205 minutos
+
+Numero promedio en cola     1.205
+
+Uso del servidor          0.208
+
+Proporción de tiempo cola activa          0.087
+
+Tiempo de terminacion de la simulacion    8691.133 minutos
+
+
+
+==== Experimento 98 ====
+
+Espera promedio en la cola      1.013 minutos
+
+Numero promedio en cola     1.013
+
+Uso del servidor          0.191
+
+Proporción de tiempo cola activa          0.074
+
+Tiempo de terminacion de la simulacion    8589.323 minutos
+
+
+
+==== Experimento 99 ====
+
+Espera promedio en la cola      0.710 minutos
+
+Numero promedio en cola     0.710
+
+Uso del servidor          0.196
+
+Proporción de tiempo cola activa          0.062
+
+Tiempo de terminacion de la simulacion    7996.405 minutos
+
+
+
+==== Experimento 100 ====
+
+Espera promedio en la cola      1.272 minutos
+
+Numero promedio en cola     1.272
+
+Uso del servidor          0.207
+
+Proporción de tiempo cola activa          0.081
+
+Tiempo de terminacion de la simulacion    8463.330 minutos
+
+
+
+==== Resultados Totales ====
+
+Espera promedio en la cola      0.905 minutos
+
+Numero promedio en cola     0.105
+
+Uso del servidor          0.188
+
+Proporción de tiempo cola activa          0.068
+
+Tiempo de terminacion de la simulacion    8672.148 minutos
